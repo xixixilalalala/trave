@@ -9,7 +9,7 @@
             </div>
             <router-link to="/city">
             <div class="header-right">
-                城市
+                {{this.city}}
                 <span class="iconfont arrow-icon" >&#xeb6d;</span>
             </div>
             </router-link>
