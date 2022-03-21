@@ -7,14 +7,21 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    
+    city:localStorage.city || '上海'
   },
   getters: {
+    doubleCity(state){
+      return state.city+ ' ' +state.city
+    }
   },
   mutations: {
-    
+    changeCity(state,city){
+      state.city=city
+      localStorage.city=city
+    }
   },
   actions: {
+    
   },
   modules: {
   }
