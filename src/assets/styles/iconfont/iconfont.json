@@ -1,10 +1,17 @@
 {
-  "id": "3253332",
+  "id": "3253330",
   "name": "mytrave",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
+    {
+      "icon_id": "1727480",
+      "name": "238图片",
+      "font_class": "tupian",
+      "unicode": "e8d3",
+      "unicode_decimal": 59603
+    },
     {
       "icon_id": "145438",
       "name": "搜索",
