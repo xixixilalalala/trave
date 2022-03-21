@@ -10,9 +10,6 @@ export default new Vuex.Store({
     city:localStorage.city || '上海'
   },
   getters: {
-    doubleCity(state){
-      return state.city+ ' ' +state.city
-    }
   },
   mutations: {
     changeCity(state,city){
